@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usernames",
+  "info": {
+    "singularName": "username",
+    "pluralName": "usernames",
+    "displayName": "Username",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Users": {
+      "type": "string"
+    },
+    "User_ID": {
+      "type": "integer"
+    },
+    "Password": {
+      "type": "string"
+    }
+  }
+}
